@@ -22,6 +22,7 @@ $ cd Website-Ultra
 ```
 
 Para iniciá-lo, siga os passos abaixo:
+
 ```bash
 # Instalar as dependências
 $ yarn
@@ -29,11 +30,12 @@ $ yarn
 # Iniciar o projeto
 $ yarn start
 ```
+
 O app estará disponível no seu browser pelo endereço http://localhost:3000.
 
 ## 💻 Projeto
 
-Ultra foi feito com o intiuto de aprendizagem das tecnologias react e styled-components
+Ultra foi feito com o intuito de aprendizagem das tecnologias react e styled-components
 
 ## 📝 License
 
