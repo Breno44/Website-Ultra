@@ -8,7 +8,9 @@ const App = () => {
     <Router>
       <GlobalStyle />
       <Navbar />
-      <Switch></Switch>
+      <Switch>
+        <Route />
+      </Switch>
     </Router>
   );
 };
