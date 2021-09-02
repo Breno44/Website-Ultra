@@ -2,6 +2,7 @@ import React from "react";
 import GlobalStyle from "./globalStyles";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Home from "./pages/HomePage/Home";
 
 const App = () => {
   return (
@@ -9,7 +10,7 @@ const App = () => {
       <GlobalStyle />
       <Navbar />
       <Switch>
-        <Route />
+        <Route path="/" exact component={Home} />
       </Switch>
     </Router>
   );
